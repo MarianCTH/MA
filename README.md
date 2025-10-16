@@ -114,6 +114,3 @@ We want to make an app that helps people buy and sell cars easily. Users can:
 ## Summary
 
 We want to build a simple, easy-to-use app for buying and selling cars. It will help people find the car they want and help sellers reach more buyers. The app will be fast, secure, and work on all phones.
-
-on all phones.
-](https://github.com/MarianCTH/MA.git)
