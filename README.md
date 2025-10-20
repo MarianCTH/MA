@@ -341,8 +341,4 @@ The following operations require server connectivity:
 
 ## Mockup Screenshots
 
-### Property Listings Screen
-![Property Listings Screen](listings.png)
-
-### Add/Edit Property Screen
-![Add/Edit Property Screen](add.png)
+<img src="listings.png" alt="Property Listings Screen" width="300"> <img src="add.png" alt="Add/Edit Property Screen" width="300">
