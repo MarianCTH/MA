@@ -342,7 +342,7 @@ The following operations require server connectivity:
 ## Mockup Screenshots
 
 ### Property Listings Screen
-![Property Listings Screen](images/listings.png)
+![Property Listings Screen](listings.png)
 
 ### Add/Edit Property Screen
-![Add/Edit Property Screen](images/add.png)
+![Add/Edit Property Screen](add.png)
