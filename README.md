@@ -15,14 +15,6 @@ We want to make an app that helps people buy and sell properties easily. Users c
 - Chat with sellers/landlords
 - Find properties near them
 
-## Who Will Use It
-
-- **Property buyers** - People looking to buy a home or investment property
-- **Property sellers** - People who want to sell their property
-- **Renters** - People looking for rental properties
-- **Landlords** - People who want to rent out their properties
-- **Real estate agents** - Professional property brokers
-
 ## Main Features
 
 ### 1. User Account
@@ -72,25 +64,10 @@ We want to make an app that helps people buy and sell properties easily. Users c
 - See previous sales data
 - Get property value estimates
 
-## Technical Needs
-
-### App Performance
-- App opens in under 3 seconds
-- Search results show in 2 seconds
-- Works on older phones too
-- Uses less battery
-
 ### Security
 - Keep user data safe
 - Secure login
 - Protect personal information
-
-### What We Need to Build It
-- **Frontend:** React Native (works on both iPhone and Android)
-- **Backend:** Node.js with database
-- **Database:** PostgreSQL
-- **Images:** Cloud storage for photos
-- **Maps:** Google Maps integration
 
 ## User Flow
 
@@ -103,7 +80,7 @@ We want to make an app that helps people buy and sell properties easily. Users c
 
 ## Summary
 
-We want to build a simple, easy-to-use app for buying, selling, and renting properties. It will help people find the property they want and help sellers/landlords reach more buyers/renters. The app will be fast, secure, and work on all phones.
+Easy-to-use app for buying, selling, and renting properties. It will help people find the property they want and help sellers/landlords reach more buyers/renters.
 
 ## Domain Details
 
