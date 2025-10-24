@@ -1,10 +1,5 @@
-# Real Estate App - Client Requirements
-
-## What We Want to Build
-
+# Real Estate App
 **App Name:** PropertyFinder  
-**Type:** Mobile app for phones  
-**Platforms:** Android 
 
 ## What the App Does
 
