@@ -12,7 +12,7 @@ We want to make an app that helps people buy and sell properties easily. Users c
 - Look for properties to buy or rent
 - Sell or rent their own properties
 - Compare different properties
-- Chat with sellers/landlords
+- Chat with sellers
 - Find properties near them
 
 ## Main Features
@@ -43,7 +43,7 @@ We want to make an app that helps people buy and sell properties easily. Users c
 - Compare multiple properties
 
 ### 4. Communication
-- Chat with sellers/landlords
+- Chat with sellers
 - Make phone calls
 - Send messages
 - Get notifications
@@ -75,12 +75,12 @@ We want to make an app that helps people buy and sell properties easily. Users c
 2. **Browse/Search** - Users browse property listings or search for specific properties
 3. **View Details** - Users select a property to see detailed information
 4. **Save Favorites** - Users can save properties to their favorites list
-5. **Contact Seller/Landlord** - Users can message sellers/landlords directly through the app
+5. **Contact Seller** - Users can message sellers directly through the app
 
 
 ## Summary
 
-Easy-to-use app for buying, selling, and renting properties. It will help people find the property they want and help sellers/landlords reach more buyers/renters.
+Easy-to-use app for buying, selling, and renting properties. It will help people find the property they want and help sellers reach more buyers/renters.
 
 ## Domain Details
 
@@ -109,7 +109,7 @@ The main entity representing real estate properties in the system with the follo
 20. **amenities** (Array of Strings) - Available amenities (pool, garage, etc.)
 
 ### User Entity
-Represents app users (buyers, sellers, renters, and landlords) with the following fields:
+Represents app users (buyers, sellers, renters) with the following fields:
 
 1. **userId** (String, Primary Key) - Unique identifier for each user
 2. **email** (String) - User's email address for login
@@ -168,14 +168,14 @@ Tracks user's saved properties with the following fields:
 - Search functionality with keyword matching
 
 **UPDATE (Modify Property Listing):**
-- Sellers/landlords can edit their own property listings
+- Sellers can edit their own property listings
 - Can update price, description, photos, and availability status
 - Cannot change core details like property type, bedrooms, bathrooms after posting
 - Changes are reflected immediately in search results
 - Edit history is maintained for transparency
 
 **DELETE (Remove Property Listing):**
-- Sellers/landlords can delete their own listings
+- Sellers can delete their own listings
 - System marks listing as inactive rather than permanent deletion
 - Deleted listings are removed from search results
 - Associated messages and favorites are preserved for reference
@@ -209,7 +209,7 @@ Tracks user's saved properties with the following fields:
 ### Message Entity Operations
 
 **CREATE (Send Message):**
-- Users can send messages to property sellers/landlords
+- Users can send messages to property sellers
 - Messages are linked to specific property listings
 - Support for text messages, image attachments, and viewing requests
 - Messages are delivered in real-time when possible
@@ -294,7 +294,7 @@ The following operations require server connectivity:
 ### UPDATE Operations Offline
 
 **Editing Property Listings:**
-- Sellers/landlords can modify their listings offline
+- Sellers can modify their listings offline
 - Changes are saved locally as pending updates
 - Automatic sync when connection is restored
 - Conflict resolution handles simultaneous edits
